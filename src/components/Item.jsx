@@ -1,10 +1,10 @@
 import React from "react";
 
-class Cart extends React.Component{
+class Item extends React.Component{
     render(){
         return(
             <div>
-                Cart
+                Item
             </div>
         )
     }
@@ -12,4 +12,4 @@ class Cart extends React.Component{
 }
 
 
-export default Cart
+export default Item
