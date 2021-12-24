@@ -16,7 +16,7 @@ class Navbar extends React.Component {
                     </Link>
                     
                     <div className="right menu">
-                        <Link  to="/" className="ui item">
+                        <Link  to="/cart" className="ui item">
                         <i className="fas fa-shopping-cart"></i>
                         <span className="Navbar-cart">{this.props.cartItems.length}</span>
                         </Link>

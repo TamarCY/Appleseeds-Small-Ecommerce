@@ -1,0 +1,23 @@
+ .Cart-Product-price {
+    font-size: 20px;
+    margin-left: 40px
+}
+
+.Cart-Product-name {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.Cart-sum {
+    font-size: 30px;
+    text-align: right;
+    margin: 40px 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.Cart-empty {
+    text-align: center;
+    font-size: 20px;
+}
+
