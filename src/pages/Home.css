@@ -1,0 +1,21 @@
+.Home-header {
+    font-size: 60px;
+}
+
+.Home h2{
+    font-size: 30px;
+    color: gray;
+}
+
+.Home {
+    padding-top: 10%;
+    height: 100vh;
+    text-align:center;
+}
+
+.Home i {
+    font-size: 150px;
+    margin-top: 10%;
+    color: rgb(94, 93, 93);
+}
+
