@@ -15,7 +15,7 @@ class Item extends React.Component{
               </div>
             </div>
             <div className="extra content">
-              <button className="ui button">Buy</button>
+              <button className="ui button" onClick={()=>{this.props.handleBuy(this.props.item.id)}}>Buy</button>
             </div>
           </div>
         )

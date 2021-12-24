@@ -5,12 +5,12 @@ import "./Products.css"
 
 class Products extends React.Component{
     renderProducts = () => {
-        // return this.props.posters.map((item)=>{return <div key="item.id">{item.name}</div>})
         return (
             this.props.posters.map((item) => {
                 return <Item
                     key={item.id}
                     item={item}
+                    handleBuy={this.props.handleBuy}
                 />
             })
         )
@@ -19,10 +19,6 @@ class Products extends React.Component{
     render(){
         if (!this.props.posters){return (<div></div>)}
         return(
-            
-            // <div>
-            //     {this.renderProducts()}
-            // </div>
             <div>
                 <div className="Products ui container">
                     <div className="ui cards">
